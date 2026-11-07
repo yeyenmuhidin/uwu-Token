@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>UWU Token | The Cutest Meme Coin</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+overflow-x:hidden;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+/* Navbar */
+
+nav{
+position:fixed;
+width:100%;
+top:0;
+z-index:999;
+background:rgba(15,23,42,.9);
+backdrop-filter:blur(10px);
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:800;
+color:#ff69b4;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:600;
+}
+
+nav a:hover{
+color:#ff69b4;
+}
+
+/* Hero */
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:100px 20px;
+background:
+radial-gradient(circle at top,#ff69b430 0%,transparent 40%),
+#0f172a;
+}
+
+.hero-content h1{
+font-size:5rem;
+color:#ff69b4;
+}
+
+.hero-content h2{
+font-size:2rem;
+margin-bottom:20px;
+}
+
+.hero-content p{
+max-width:700px;
+margin:auto;
+font-size:1.1rem;
+line-height:1.8;
+opacity:.9;
+}
+
+.hero-buttons{
+margin-top:35px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+margin:10px;
+border-radius:50px;
+text-decoration:none;
+font-weight:700;
+transition:.3s;
+}
+
+.buy{
+background:#ff69b4;
+color:white;
+}
+
+.buy:hover{
+transform:translateY(-4px);
+}
+
+.community{
+border:2px solid #ff69b4;
+color:#ff69b4;
+}
+
+.community:hover{
+background:#ff69b4;
+color:white;
+}
+
+section{
+padding:100px 10%;
+}
+
+.section-title{
+font-size:2.5rem;
+text-align:center;
+margin-bottom:50px;
+color:#ff69b4;
+}
+
+/* About */
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.about-box{
+background:#1e293b;
+padding:30px;
+border-radius:20px;
+}
+
+.about-box h3{
+color:#ff69b4;
+margin-bottom:15px;
+}
+
+/* Tokenomics */
+
+.tokenomics{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.token-card{
+background:#1e293b;
+padding:30px;
+border-radius:20px;
+text-align:center;
+transition:.3s;
+}
+
+.token-card:hover{
+transform:translateY(-5px);
+}
+
+.token-card h3{
+color:#ff69b4;
+margin-bottom:10px;
+}
+
+/* Roadmap */
+
+.roadmap{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.phase{
+background:#1e293b;
+padding:30px;
+border-radius:20px;
+}
+
+.phase h3{
+color:#ff69b4;
+margin-bottom:15px;
+}
+
+.phase ul{
+line-height:2;
+}
+
+/* Social */
+
+.social{
+text-align:center;
+}
+
+.social-links a{
+display:inline-block;
+margin:10px;
+padding:15px 25px;
+background:#ff69b4;
+color:white;
+text-decoration:none;
+border-radius:50px;
+}
+
+/* Footer */
+
+footer{
+padding:40px;
+text-align:center;
+background:#020617;
+}
+
+footer p{
+opacity:.7;
+}
+
+/* Floating animation */
+
+.mascot{
+font-size:100px;
+animation:float 3s ease-in-out infinite;
+margin-bottom:20px;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-15px);}
+100%{transform:translateY(0);}
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:3rem;
+}
+
+.hero-content h2{
+font-size:1.4rem;
+}
+
+.about{
+grid-template-columns:1fr;
+}
+
+nav ul{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">🩷 UWU</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#tokenomics">Tokenomics</a></li>
+<li><a href="#roadmap">Roadmap</a></li>
+<li><a href="#community">Community</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="mascot">😺</div>
+
+<h1>$UWU</h1>
+
+<h2>The Cutest Meme Coin on Solana</h2>
+
+<p>
+UWU Token is a community-powered meme coin built for fun,
+memes, friendship, and moon missions.
+No complicated utility.
+No boring promises.
+Just pure UWU energy.
+</p>
+
+<div class="hero-buttons">
+<a href="#" class="btn buy">🚀 BUY $UWU</a>
+<a href="#community" class="btn community">💖 Join Community</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">About UWU</h2>
+
+<div class="about">
+
+<div class="about-box">
+<h3>What is UWU?</h3>
+
+<p>
+UWU Token is a cute and viral meme coin inspired by the
+most beloved internet expression ever created.
+Built on Solana and powered entirely by its community.
+</p>
+
+</div>
+
+<div class="about-box">
+<h3>Mission</h3>
+
+<p>
+Spread positivity, create memes, build a strong community,
+and take the cutest token in crypto all the way to the moon.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="tokenomics">
+
+<h2 class="section-title">Tokenomics</h2>
+
+<div class="tokenomics">
+
+<div class="token-card">
+<h3>Total Supply</h3>
+<p>1,000,000,000 UWU</p>
+</div>
+
+<div class="token-card">
+<h3>Tax</h3>
+<p>0%</p>
+</div>
+
+<div class="token-card">
+<h3>Blockchain</h3>
+<p>Solana</p>
+</div>
+
+<div class="token-card">
+<h3>Community</h3>
+<p>100%</p>
+</div>
+
+<div class="token-card">
+<h3>Liquidity</h3>
+<p>Locked</p>
+</div>
+
+<div class="token-card">
+<h3>Destination</h3>
+<p>🌕 Moon</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="roadmap">
+
+<h2 class="section-title">Roadmap</h2>
+
+<div class="roadmap">
+
+<div class="phase">
+<h3>Phase 1</h3>
+
+<ul>
+<li>✅ Launch on Pump.fun</li>
+<li>✅ Community Building</li>
+<li>✅ Viral Memes</li>
+<li>✅ Social Growth</li>
+</ul>
+
+</div>
+
+<div class="phase">
+<h3>Phase 2</h3>
+
+<ul>
+<li>🚀 1,000 Holders</li>
+<li>🚀 Influencer Exposure</li>
+<li>🚀 Meme Contest</li>
+<li>🚀 Trending Campaign</li>
+</ul>
+
+</div>
+
+<div class="phase">
+<h3>Phase 3</h3>
+
+<ul>
+<li>🌕 10,000 Holders</li>
+<li>🌕 Coin Listings</li>
+<li>🌕 Partnerships</li>
+<li>🌕 Ultimate Moon Mission</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="community">
+
+<h2 class="section-title">Join The UWU Army</h2>
+
+<div class="social">
+
+<p>
+Become part of the cutest crypto community in the world.
+</p>
+
+<br>
+
+<div class="social-links">
+
+<a href="#">𝕏 Twitter</a>
+
+<a href="#">Telegram</a>
+
+<a href="#">Pump.fun</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>🩷 UWU TOKEN</h2>
+
+<br>
+
+<p>
+Cute Today • Moon Tomorrow 🚀
+</p>
+
+<br>
+
+<p>
+Not Financial Advice | Meme Coin for Entertainment
+</p>
+
+</footer>
+
+</body>
+</html>
